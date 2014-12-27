@@ -14,7 +14,6 @@ set(CMAKE_CXX_FLAGS "-Wall -Werror -pedantic -std=c++11")
 include_directories(${lib_dir})
 
 set(src_files
-	${src_dir}/dummy_data_line.cpp
 	${src_dir}/main.cpp
 )
 
